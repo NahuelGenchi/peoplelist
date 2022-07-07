@@ -1,3 +1,14 @@
 .footer {
     min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.73rem;
+    font-weight: 100;
+    color: gray;
+    a {
+        font-weight: bold;
+        color: inherit;
+        text-decoration: none;
+    }
 }
