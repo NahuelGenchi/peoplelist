@@ -14,4 +14,32 @@ body {
   color: rgb(37, 37, 37);
 }
 
+.header {
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header .headerContainer {
+  margin-top: 25px;
+  width: 250px;
+}
+.header .headerContainer h1 {
+  font-weight: 900;
+  font-size: 2.3rem;
+}
+.header .headerContainer p {
+  margin-top: 15px;
+  font-style: italic;
+}
+
+.main {
+  min-height: 60vh;
+}
+
+.footer {
+  min-height: 10vh;
+}
+
 /*# sourceMappingURL=main.css.map */
