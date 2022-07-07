@@ -23,7 +23,7 @@ body {
 }
 .header .headerContainer {
   margin-top: 25px;
-  width: 250px;
+  width: 80%;
 }
 .header .headerContainer h1 {
   font-weight: 900;
@@ -36,6 +36,33 @@ body {
 
 .main {
   min-height: 60vh;
+}
+.main .peopleContainer {
+  height: 140px;
+  width: 80%;
+  margin: 0 auto 30px auto;
+  padding: 25px;
+  border: 1px solid rgba(128, 128, 128, 0.432);
+}
+.main .addPersonContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+.main .addPersonContainer #firstName, .main .addPersonContainer #lastName, .main .addPersonContainer #addPersonButton {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.432);
+  background-color: rgb(250, 246, 241);
+}
+.main .addPersonContainer #lastName, .main .addPersonContainer #addPersonButton {
+  margin-top: 20px;
+}
+.main .addPersonContainer #addPersonButton {
+  border: none;
+  cursor: pointer;
+  background-color: cornflowerblue;
+  font-weight: bold;
+  color: white;
 }
 
 .footer {

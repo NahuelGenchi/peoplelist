@@ -1,3 +1,30 @@
 .main {
     min-height: 60vh;
+    .peopleContainer {
+        height: 140px;
+        width: 80%;
+        margin: 0 auto 30px auto;
+        padding: 25px;
+        border: 1px solid rgba(128, 128, 128, 0.432);
+    }
+    .addPersonContainer {
+        width: 80%;
+        margin: 0 auto;
+        #firstName, #lastName, #addPersonButton {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid rgba(128, 128, 128, 0.432);
+            background-color: rgb(250, 246, 241);
+        }
+        #lastName, #addPersonButton {
+            margin-top: 20px;
+        }
+        #addPersonButton {
+            border: none;
+            cursor: pointer;
+            background-color: cornflowerblue;
+            font-weight: bold;
+            color: white;
+        }
+    }
 }
