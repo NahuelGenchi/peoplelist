@@ -1,3 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
 
+:root {
+  font-size: 16px;
+}
+
+body {
+  background-color: rgb(255, 248, 240);
+  color: rgb(37, 37, 37);
+}
 
 /*# sourceMappingURL=main.css.map */
