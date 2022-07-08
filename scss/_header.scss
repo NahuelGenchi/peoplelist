@@ -17,3 +17,17 @@
         }
     }
 }
+
+@media (min-width: 1024px) {
+    .header {
+        .headerContainer {
+            width: 60%;
+            h1 {
+                font-size: 3rem;
+            }
+            p {
+                font-size: 1.3rem;
+            }
+        }
+    }
+}

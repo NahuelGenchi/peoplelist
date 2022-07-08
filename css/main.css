@@ -34,6 +34,17 @@ body {
   font-style: italic;
 }
 
+@media (min-width: 1024px) {
+  .header .headerContainer {
+    width: 60%;
+  }
+  .header .headerContainer h1 {
+    font-size: 3rem;
+  }
+  .header .headerContainer p {
+    font-size: 1.3rem;
+  }
+}
 .main {
   min-height: 60vh;
 }
@@ -72,6 +83,15 @@ body {
   color: white;
 }
 
+@media (min-width: 1024px) {
+  .main .peopleContainer {
+    height: 200px;
+  }
+  .main .peopleContainer, .main .addPersonContainer {
+    width: 60%;
+    font-size: 1.1rem;
+  }
+}
 .footer {
   min-height: 10vh;
   display: flex;

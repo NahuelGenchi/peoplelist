@@ -35,3 +35,15 @@
         }
     }
 }
+
+@media (min-width: 1024px) {
+    .main {
+        .peopleContainer {
+            height: 200px;
+        }
+        .peopleContainer, .addPersonContainer {
+            width: 60%;
+            font-size: 1.1rem;
+        }
+    }
+}
