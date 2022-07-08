@@ -41,8 +41,15 @@ body {
   height: 140px;
   width: 80%;
   margin: 0 auto 30px auto;
-  padding: 25px;
+  padding: 5px 10px 10px 10px;
   border: 1px solid rgba(128, 128, 128, 0.432);
+  overflow-y: scroll;
+}
+.main .peopleContainer ul {
+  list-style: none;
+}
+.main .peopleContainer ul li {
+  margin: 10px 0;
 }
 .main .addPersonContainer {
   width: 80%;
