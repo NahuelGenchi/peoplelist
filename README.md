@@ -10,4 +10,4 @@ This begginner project consists of adding people to a list, if the person is alr
 - JavaScript
 - Git
 
-Hosting: Github pages
+Hosting: [GitHub pages](https://nahuelgenchi.github.io/peoplelist/)
